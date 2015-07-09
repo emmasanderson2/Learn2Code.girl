@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Jura:500,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+  </head>
+
+  <body style="background-color:#FFC7E9" role="document">
+    <!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://instagram.com/learn2code/"></a>
+        </div>
+<span style="font-family:Pacifico; font-size:20px">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            
+            <li><a href="http://web.stanford.edu/~cdebs/Learn2Code/for-loop">For</a></li>
+            <li class="active"><a href="http://web.stanford.edu/~cdebs/Learn2Code/if-statement">If </a></li>
+            <li><a href="https://instagram.com/learn2code/"><img src="./media/instagram.gif" style="float:left; margin-top:-3px"></img></a></li>
+          </span>
+
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul> -->
+            </li> 
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+      <div class="page-header"></div>
+      <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title"><span style="font-family: 'Hind'; font-size:23px; ">input</span>
+                    <!--<button style="margin-left:205px;padding-left:20px;padding-right:20px"id='run_my_code' type="button" class="btn btn-sm btn-info">GO</button>-->
+                </h3>
+              </div>
+            <div class="panel-body" >
+              <div id="input-form">
+              <span style="font-family:Jura; font-size:15px">
+              <form>
+                lyrics <span style="font-family:Arial; font-size=12px">=</span> <span style="font-family:Gochi Hand;font-size:20px">"If you could see that I'm the one who understands you. Been here all along. So, why can't you see. You belong with me, you belong with me."</span>
+                <br><br>
+                if lyrics.includes "
+                  <input type="text" id="user_lyrics" size="11" >
+                "
+                <br>
+                
+                <div class="input-print">
+                <span style="margin-left:2em"> 
+                ("YouBelongWithMe.mp3").play()
+                </span>
+              </span>
+                </div>
+                <!--"<input type="text" id="link1" size="30" value="Taylor Swift">"</span><br> -->
+            </div>
+          </div>
+          <p>
+
+            </form>
+          </div>
+      </p>
+      <button id="go-if" type="button" class="btn btn-lg btn-success"style="display: block; width: 100%;"><span style="font-family:Pacifico; font-size:20px">GO!</span></button><br>
+
+          <div class="panel panel-info">
+            <div class="panel-heading"><span style="font-family: 'Hind'; font-size:23px">output</span>
+            </div>
+            <br> 
+            <div id="output-if"></div>
+<!--            <audio controls autoplay style="margin-left: 20px;" id='output-if' >
+            </audio>
+-->       <br>
+          </div>
+
+
+        </div><!-- /.col-sm-4 -->
+      </div>
+
+    </div> <!-- /container -->
+  </body>
+</html>
